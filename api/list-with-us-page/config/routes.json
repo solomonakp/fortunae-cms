@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/list-with-us-page",
+      "handler": "list-with-us-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/list-with-us-page",
+      "handler": "list-with-us-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/list-with-us-page",
+      "handler": "list-with-us-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

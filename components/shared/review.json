@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_reviews",
+  "info": {
+    "name": "review",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "review": {
+      "type": "text"
+    }
+  }
+}

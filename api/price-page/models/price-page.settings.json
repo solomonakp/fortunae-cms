@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "price_pages",
+  "info": {
+    "name": "price page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.price"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

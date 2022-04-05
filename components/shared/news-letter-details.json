@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_news_letter_details",
+  "info": {
+    "name": "newsLetterDetails",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

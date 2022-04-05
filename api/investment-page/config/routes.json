@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/investment-page",
+      "handler": "investment-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/investment-page",
+      "handler": "investment-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/investment-page",
+      "handler": "investment-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

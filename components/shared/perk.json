@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_perks",
+  "info": {
+    "name": "perk",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_prices",
+  "info": {
+    "name": "price",
+    "icon": "comment-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "frequency": {
+      "type": "enumeration",
+      "enum": [
+        "Forever",
+        "Monthly",
+        "Annually"
+      ]
+    },
+    "perks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.perk"
+    }
+  }
+}
