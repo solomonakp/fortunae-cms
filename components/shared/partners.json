@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_partners",
+  "info": {
+    "name": "partners",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

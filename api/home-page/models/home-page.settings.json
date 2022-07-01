@@ -45,6 +45,11 @@
       "repeatable": true,
       "component": "shared.review",
       "required": true
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.partners"
     }
   }
 }
